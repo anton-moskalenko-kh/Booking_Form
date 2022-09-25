@@ -4,7 +4,7 @@ import {styled} from "@mui/system";
 //Parts
 import Box from '@mui/material/Box';
 
-const Wrapper = styled(Box)({
+export const Wrapper = styled(Box)({
     display: 'flex',
     paddingTop: '20px',
     paddingBottom: '20px',
@@ -15,4 +15,7 @@ const Wrapper = styled(Box)({
     alignItems: 'center',
 });
 
-export default Wrapper;
+export const Logo = styled(Box)({
+    fontWeight: "bold",
+    fontSize: '35px'
+})
