@@ -9,7 +9,7 @@ import Button from "../Button/index";
 function Header() {
     return (
         <Wrapper component='header'>
-            <Logo component="h6" sx={{ color: 'primary.main' }}>Booking</Logo>
+            <Logo component="span" sx={{ color: 'primary.main' }}>Booking</Logo>
             <Stack spacing={2} direction='row'>
                 <Button to={links.main}>Home</Button>
                 <Button to={links.about}>About</Button>
